@@ -2165,3 +2165,21 @@ html, body {
 .sitename {
   /* Add styles if needed for sitename */
 }
+.form-container input, .form-container select, .form-container textarea {
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.form-container button:hover {
+  background-color: #e64a19;
+}
+
+
+
+
+body {
+  background-image: url('assets/img/05 (1).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
