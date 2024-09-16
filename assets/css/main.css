@@ -565,11 +565,23 @@ h6 {
   transition: 0.3s;
 }
 
-.footer .social-links a:hover {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
+.footer .social-links .twitter a:hover {
+  color:black;
+  border-color: black;
+}
+.footer .social-links .facebook a:hover {
+  color:#097BEA;
+  border-color:#097BEA;
 }
 
+.footer .social-links .instagram a:hover {
+  color:#BE3A94; 
+  border-color:#BE3A94;
+}
+.footer .social-links .linkedin a:hover {
+  color:#2964B8; 
+  border-color:#2964B8;
+}
 .footer h4 {
   font-size: 16px;
   font-weight: bold;
@@ -2182,4 +2194,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+/* footer social media logo */
+.footer-twitter-logo a:hover {
+  color: red;
+  background-color: red;
 }
