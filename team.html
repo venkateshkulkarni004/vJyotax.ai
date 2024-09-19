@@ -74,29 +74,24 @@
   <style>
     body {
       font-family: 'Roboto', sans-serif;
-      background-color: #f88e03;
+    
       margin: 0;
       padding: 0;
     }
 
     header {
       background-color: #FF620B;
-      color: rgb(0, 0, 0);
+      color: white;
       padding: 2rem;
       text-align: center;
     }
 
     h1 {
       margin: 0;
-      color: white;
       font-size: 2.5rem;
     }
 
     .team-section {
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      gap: 2rem;
       padding: 2rem;
     }
 
@@ -105,9 +100,9 @@
       border-radius: 15px;
       padding: 2rem;
       box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      max-width: 300px;
       text-align: center;
       transition: transform 0.3s ease;
+      height: 100%;
     }
 
     .team-member:hover {
@@ -133,10 +128,6 @@
       margin-bottom: 1rem;
     }
 
-    .linkedin-icon {
-      margin-top: 1rem;
-    }
-
     .linkedin-icon img {
       width: 32px;
       height: 32px;
@@ -155,169 +146,282 @@
 <body>
     
     <header>
-          <h1>Meet Our Jyotax Team</h1>
+          <h1 style="color: white;" >Meet Our Jyotax Team</h1>
+          <br>
           <p style="color: white;">We are a team of experts committed to delivering world-class tax and automation services</p>
 
         </header>
       
-        <section class="team-section">
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member1.jpg" alt="John Doe">
-              </div>
-              <h2>John Doe</h2>
-              <p>Chief Executive Officer</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/johndoe" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
-              </div>
-            </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member2.jpg" alt="Jane Smith">
-              </div>
-              <h2>Jane Smith</h2>
-              <p>Chief Technology Officer</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/janesmith" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
+        <section class="container team-section">
+          <div class="row">
+            <!-- Team Member 1 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets/img/team/Sudhir Singh.png" alt="Sudhir Singh">
+                </div>
+                <h2>Sudhir Singh</h2>
+                <p >Chief Executive Officer</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/sudhir-singh" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
               </div>
             </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member3.jpg" alt="Moinul Hossain">
-              </div>
-              <h2>Moinul Hossain</h2>
-              <p>Senior Software Engineer</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/moinulhossain" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
-              </div>
-            </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member4.jpg" alt="Phoebe Pham">
-              </div>
-              <h2>Phoebe Pham</h2>
-              <p>Software Engineer</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/phoebepham" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
+      
+            <!-- Team Member 2 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets/img/team/negi.png" alt="Dhirendra Negi">
+                </div>
+                <h2>Dhirendra Negi</h2>
+                <p>Chief of Technology & Architecture</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/dhirendra-negi" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
               </div>
             </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member5.jpg" alt="Ryan Connell">
-              </div>
-              <h2>Ryan Connell</h2>
-              <p>Head of Sales</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/ryanconnell" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
-              </div>
-            </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member6.jpg" alt="Cody Burke">
-              </div>
-              <h2>Cody Burke</h2>
-              <p>Product Operations Manager</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/codyburke" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
+      
+            <!-- Team Member 3 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets/img/team/purnendu.png" alt="Purnendu Prabhat">
+                </div>
+                <h2>Purnendu Prabhat</h2>
+                <p>AI/ML Consultant</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/purnendu-prabhat" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
               </div>
             </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member7.jpg" alt="Marcus Bertrand">
-              </div>
-              <h2>Marcus Bertrand</h2>
-              <p>Senior Software Engineer</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/marcusbertrand" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
-              </div>
-            </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member8.jpg" alt="Shardul Walwadkar">
-              </div>
-              <h2>Shardul Walwadkar</h2>
-              <p>Senior Product Manager</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/shardulwalwadkar" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
+      
+            <!-- Team Member 4 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets/img/team/rishabh.png" alt="Rishabh Sawansukha">
+                </div>
+                <h2>Rishabh Sawansukha</h2>
+                <p>Chief Strategy Business Advisor</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/rishabh-sawansukha" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
               </div>
             </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member9.jpg" alt="Bhagawat Dongre">
-              </div>
-              <h2>Bhagawat Dongre</h2>
-              <p>Software Engineer</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/bhagawatdongre" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
-              </div>
-            </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member10.jpg" alt="Ataur Rahman">
-              </div>
-              <h2>Ataur Rahman</h2>
-              <p>Tax Operations</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/ataurrahman" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
+      
+            <!-- Team Member 5 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets/img/team/pani.jpeg" alt="Phani Kumar Kondapally">
+                </div>
+                <h2>Phani Kumar Kondapally</h2>
+                <p>Head of Tax</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/phani-kumar-kondapally-89b86535/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
               </div>
             </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member11.jpg" alt="Dimple Mittal">
-              </div>
-              <h2>Dimple Mittal</h2>
-              <p>Senior Software Engineer</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/dimplemittal" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
-              </div>
-            </div>
-          
-            <div class="team-member">
-              <div class="profile-img">
-                <img src="images/member12.jpg" alt="Tom Adler">
-              </div>
-              <h2>Tom Adler</h2>
-              <p>Onboarding Specialist</p>
-              <div class="linkedin-icon">
-                <a href="https://www.linkedin.com/in/tomadler" target="_blank">
-                  <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
-                </a>
+      
+            <!-- Team Member 6 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\kopar.jpeg" alt="Ankit Kapoor">
+                </div>
+                <h2>Ankit Kapoor</h2>
+                <p>Sr. Analyst</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/ankit-kapoor-33546137/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
               </div>
             </div>
-          
-          </section>
+      
+            <!-- Team Member 7 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\sapna arun.jpeg" alt="Tom Adler">
+                </div>
+                <h2>Sapna Arun</h2>
+                <p>US CPA , US Sales Tax Consultant , Bookkeeper, US Tax return , US and UK Payroll Specialist</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/sapna-arun-0a372417/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 8 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\Prasad  Joshi.jpeg" alt="Shardul Walwadkar">
+                </div>
+                <h2>Prasad Joshi </h2>
+                <p>Senior Product Management</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/prasad-joshi/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 9 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\mule.jpeg" alt="Akanksha Mule ">
+                </div>
+                <h2>Akanksha Mule
+                </h2>
+                <p>Data Science Expert</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/akanksha-mule-0a07a2208/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 10 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\1700600199519.jpeg" alt="Ataur Rahman">
+                </div>
+                <h2>Saurabh Lahamate</h2>
+                <p>Tax Operations</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/saurabhl23/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 11 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\Untitled design (3).png" alt="Dimple Mittal">
+                </div>
+                <h2>Venkatesh Kulkarni</h2>
+                <p>Full Stack Developer</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/venkatesh-kulkarni-vk/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 12 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets/img/team/rohit.jpg" alt="Rohit Tekawade">
+                </div>
+                <h2>Rohit Tekawade</h2>
+                <p>Data Science Expert</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/rohit-tekawade-732270231/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 13 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\Darshan Choudhari.jpeg" alt="Sam Parker">
+                </div>
+                <h2>Darshan Choudhari</h2>
+                <p>Full Stack Developer</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/darshan-choudhari/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 14 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\Tanmay Pashankar.jpeg" alt="Jane Doe">
+                </div>
+                <h2>Tanmay Pashankar</h2>
+                <p>Software Developer</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/tanmay-pashankar-b67311280/" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 15 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets\img\team\kulkarni.jpg" alt="Ron Stewart">
+                </div>
+                <h2> Shruti Kulkarni</h2>
+                <p>UI/UX Designer & front end developer</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/ronstewart" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+            <!-- Team Member 16 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="team-member">
+                <div class="profile-img">
+                  <img src="assets/img/team/maria.jpg" alt="Maria Garcia">
+                </div>
+                <h2>Maria Garcia</h2>
+                <p>HR Manager</p>
+                <div class="linkedin-icon">
+                  <a href="https://www.linkedin.com/in/mariagarcia" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section style="background-color: #fff; width: 100%; padding: 0;">
+          <div style="width: 100%; padding: 2rem; background-color: #ff6f00; border-radius: 0; box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); color: white; margin: 0;">
+              <p style="color: white; text-align: center; font-size: 24px; font-weight: bold;">Connect Us Now</p>
+              <p style="color: white; text-align: center;">We are here to help you with all your bussiness needs. Let's get in touch!</p>
+              <div style="text-align: center; margin-top: 20px;" class="btn-container">
+                  <a href="contact.html" style="background-color: #f5f1f1; color:#ff6f00; padding: 12px 20px; border-radius: 5px; border: none; font-size: 16px; text-decoration: none; margin-right: 10px; display: inline-block;">Get started</a>
+                  <a href="contact.html" style="background-color: white; color: #ff6f00; padding: 12px 20px; border-radius: 5px; border: 2px solid #ff6f00; font-size: 16px; text-decoration: none; display: inline-block;">Book a Meeting</a>
+              </div> 
+          </div>
+      </section>
           
 
     <footer id="footer" class="footer position-relative light-background">
