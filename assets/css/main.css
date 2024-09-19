@@ -999,7 +999,7 @@ section,
 }
 
 .featured-services .service-item .icon {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 80%);
+  background-color: color-mix(in srgb, var(white), transparent 80%);
   width: 72px;
   height: 72px;
   position: relative;
@@ -1009,6 +1009,7 @@ section,
   align-items: center;
   justify-content: center;
   transition: ease-in-out 0.3s;
+  border-radius: 30%;
 }
 
 .featured-services .service-item .icon i {
@@ -1043,6 +1044,7 @@ section,
 .featured-services .service-item:hover .icon i {
   color: var(--contrast-color);
 }
+
 
 /*--------------------------------------------------------------
 # About Section
@@ -2196,26 +2198,12 @@ html, body {
   transition: transform 0.3s ease;
   border: 3px solid #FF620B; /* Add this for the orange border */
 }
-
-
-
-.profile-img img {
-  border-radius: 10%;
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border: 5px solid #FF620B; /* Add a circular border with color #FF620B */
+/* footer social media logo */
+.footer-twitter-logo a:hover {
+  color: red;
+  background-color: red;
 }
+/* calculate icon */
+.features-section {
 
-
-/* .team-member {
-  background-color: white;
-  border-radius: 15px;
-  padding: 2rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  transition: transform 0.3s ease;
-  height: 100%;
-  margin: 15px; /* Add margin to create space between boxes */
- 
-  
+}
